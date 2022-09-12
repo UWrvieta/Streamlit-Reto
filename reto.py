@@ -180,7 +180,7 @@ if show_time:
     plt.ylabel('Indice de deserción')
     plt.xlabel('Tiempo de servicio')
     plt.title('Análisis de deserción por Tiempo de servicio')
-    plt.xticks(range(0,40,2),rotation =90)
+    plt.xticks(range(0,43,2),rotation =90)
     plt.grid(True)
     st.pyplot(fig)
     
