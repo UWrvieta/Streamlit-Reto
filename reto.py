@@ -3,7 +3,7 @@ import streamlit as st
 import pandas as pd
 import matplotlib.pyplot as plt
 
-names_link = ('/content/Employees.csv')
+names_link = ('Employees.csv')
 
 @st.cache
 def load_data(nrows):
